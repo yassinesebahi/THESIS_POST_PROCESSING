@@ -2,7 +2,8 @@
 README for reproduction of the normalization, clustering and T5 model
 
 Overview:
-This project involves several steps for processing and normalizing legal citations from raw data. The scripts in this project handle various tasks such as cleaning raw citation data, classifying citations, tagging them with Named Entity Recognition (NER), creating training pairs for a T5 model, clustering citations using both SBERT and TF-IDF methods, and splitting the data into training, validation, and test sets.
+This project involves several steps for processing and normalizing legal citations from raw data. The scripts in this project handle various tasks such as cleaning raw citation data, classifying citations, tagging them with Named Entity Recognition (NER), creating training pairs for a T5 model, clustering citations using both SBERT and TF-IDF methods, and splitting the data into training, validation, and test sets. The model that was trained during this thesis can be downloaded at : https://zenodo.org/records/15757459?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjdlYzc3ODRiLTEzOTctNGU2Ny1hMjQ4LWM0YzI5NjU2ODBhZCIsImRhdGEiOnt9LCJyYW5kb20iOiJmNDY0ZjEzMThiOTVkZTczZDRiNThmMjgwYjY4OGJhZCJ9.j2pj-mgQuW3YmJLOeKlvpWOGIj3EUz9Z7IP7rufh1DtZLeCE9YYjqlJskOquxCpZ0UunSmvMemP14jbFixkj-Q
+
 
 Workflow:
 The scripts are executed in sequence, with each one building upon the output of the previous step. The process starts with cleaning and classifying citations, followed by tagging, clustering, and preparing data for machine learning tasks.
@@ -105,6 +106,20 @@ matplotlib
 tqdm
 Levenshtein
 datasets
+
+---
+
+8. 03 T5_training.ipynb
+
+Purpose : Train a T5 model on the data.
+
+---
+
+9. 04 T5_testing.ipynb & 05 T5_evaluating.ipynb
+
+Purpose : Test and evaluate the T5 model.
+
+
 
 You can install the required libraries using:
 

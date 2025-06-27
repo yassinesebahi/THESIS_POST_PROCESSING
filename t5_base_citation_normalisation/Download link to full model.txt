@@ -1,0 +1,5 @@
+model.safetensors was too big to upload to GitHub
+
+Link to full model :
+
+https://zenodo.org/records/15757459?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjdlYzc3ODRiLTEzOTctNGU2Ny1hMjQ4LWM0YzI5NjU2ODBhZCIsImRhdGEiOnt9LCJyYW5kb20iOiJmNDY0ZjEzMThiOTVkZTczZDRiNThmMjgwYjY4OGJhZCJ9.j2pj-mgQuW3YmJLOeKlvpWOGIj3EUz9Z7IP7rufh1DtZLeCE9YYjqlJskOquxCpZ0UunSmvMemP14jbFixkj-Q
